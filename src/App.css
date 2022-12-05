@@ -35,4 +35,25 @@
   to {
     transform: rotate(360deg);
   }
+
+}
+.nav a{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 40px;
+  
+
+}
+.nav{
+  background-color: lightpink;
+   margin-bottom: 4%;
+   padding: 2%;
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+.nav a:hover{
+  background-color: lightblue;
 }
